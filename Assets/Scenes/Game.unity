@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnInterval: 3
+  blockSpeed: 10
   blockPrefab: {fileID: 2483232243143777458, guid: 331da00f5205c0f46be17838093931c3,
     type: 3}
   player: {fileID: 178360699}
@@ -1006,6 +1007,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8168346148888517468, guid: 12e926892122db84c86d506582af81f6,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8168346148888517469, guid: 12e926892122db84c86d506582af81f6,
         type: 3}
       propertyPath: livesText
@@ -1076,5 +1082,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2015154769231844826, guid: 12e926892122db84c86d506582af81f6, type: 3}
+    - {fileID: 6741038074675476730, guid: 12e926892122db84c86d506582af81f6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 12e926892122db84c86d506582af81f6, type: 3}
